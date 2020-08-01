@@ -1,0 +1,34 @@
+class Solution {
+public:    
+    bool detectCapitalUse(string word) {
+        int n = word.length();
+        if(n == 1)
+            return true;
+        
+        bool check_allSmall   = false;
+        bool check_allCapital = false;
+        
+        char ch1 = word[0];
+        if(ch1 >= 'a' && ch1 <= 'z') {
+            check_allSmall = true;
+        } else {
+            char ch2 = word[1];
+            if(ch2 >= 'A' && ch2 <= 'Z')
+                check_allCapital = true;
+            else
+                check_allSmall = true;
+        }
+        
+        if(check_allSmall)
+            word = word.substr(1);
+        
+        for(char ch : word) {
+            if(check_allSmall && (ch < 'a' || ch > 'z'))
+                return false;
+            else if (check_allCapital && (ch < 'A' || ch > 'Z'))
+                return false;
+        }
+        
+        return true;
+    }
+};
