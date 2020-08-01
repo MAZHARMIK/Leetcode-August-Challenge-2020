@@ -1,0 +1,22 @@
+class Solution {
+public:
+    bool checkCase(string word, bool capital = false) {
+        char left  = 'a';
+        char right = 'z';
+        if(capital) {
+            left = 'A';
+            right = 'Z';
+        }
+        for(char ch:word) {
+            if(ch < left || ch > right)
+                return false;
+        }
+        return true;
+    }
+    
+    bool detectCapitalUse(string word) {
+        if(checkCase(word) || checkCase(word, true) || checkCase(word.substr(1)))
+            return true;
+        return false;
+    }
+};
