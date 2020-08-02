@@ -15,5 +15,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Detect Capital</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Detect%20Capital%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/b4PEzIQ2D9I/maxresdefault.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Design HashSet</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Design%20HashSet%20(C%2B%2B)"><img src="https://xuanthulab.net/images/post/lop-dictionary-hashset-trong-c-c-sharp-1575.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
