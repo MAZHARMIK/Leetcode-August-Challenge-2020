@@ -1,0 +1,21 @@
+class MyHashSet {
+public:
+    /** Initialize your data structure here. */
+    std::vector<int> vec;
+    MyHashSet() {
+        vec.reserve(1000000);
+    }
+    
+    void add(int key) {
+        vec[key] = 1;
+    }
+    
+    void remove(int key) {
+        vec[key] = -1;
+    }
+    
+    /** Returns true if this set contains the specified element */
+    bool contains(int key) {
+        return (vec[key] == 1);
+    }
+};
