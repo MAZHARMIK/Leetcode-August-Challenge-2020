@@ -1,0 +1,50 @@
+class MyHashSet {
+public:
+    /** Initialize your data structure here. */
+    int numBuckets;
+    vector<vector<int>> buckets;
+    
+    int HF(int key) {
+        return key%numBuckets;
+    }
+    
+    MyHashSet() {
+        std::ios::sync_with_stdio(false);
+        std::cin.tie(NULL);
+        std::cout.tie(0);
+        numBuckets = 15000;
+        buckets = vector<vector<int>> (numBuckets, vector<int>{});
+        
+    }
+    
+    void add(int key) {
+        int i = HF(key);
+        auto it = find(buckets[i].begin(), buckets[i].end(), key);
+        if(it == buckets[i].end())
+            buckets[i].push_back(key);
+    }
+    
+    void remove(int key) {
+        int i = HF(key);
+        auto it = find(buckets[i].begin(), buckets[i].end(), key);
+        if(it != buckets[i].end())
+            buckets[i].erase(it);
+    }
+    
+    /** Returns true if this set contains the specified element */
+    bool contains(int key) {
+       int i = HF(key);
+        auto it = find(buckets[i].begin(), buckets[i].end(), key);
+        if(it == buckets[i].end())
+            return false;
+        return true;
+    }
+};
+
+/**
+ * Your MyHashSet object will be instantiated and called as such:
+ * MyHashSet* obj = new MyHashSet();
+ * obj->add(key);
+ * obj->remove(key);
+ * bool param_3 = obj->contains(key);
+ */
