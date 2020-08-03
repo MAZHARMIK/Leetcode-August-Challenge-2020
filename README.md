@@ -19,5 +19,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Design HashSet</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Design%20HashSet%20(C%2B%2B%20:%20Alternate)"><img src="https://xuanthulab.net/images/post/lop-dictionary-hashset-trong-c-c-sharp-1575.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Valid Palindrome</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Valid%20Palindrome%20(C++)"><img src="https://unfocuseddotme.files.wordpress.com/2017/10/palindromes-cursive.png" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
