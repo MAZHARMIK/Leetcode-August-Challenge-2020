@@ -23,5 +23,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Valid Palindrome</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Valid%20Palindrome%20(C++)"><img src="https://unfocuseddotme.files.wordpress.com/2017/10/palindromes-cursive.png" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Power of Four</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Power%20of%20Four%20(C%2B%2B)"><img src="http://insidepulse.com/wp-content/uploads/2017/09/Powerpuff-Girls-power-of-four-banner-e1505965402835.png" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
