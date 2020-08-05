@@ -27,5 +27,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Power of Four</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Power%20of%20Four%20(C%2B%2B:%20without%20loop)"><img src="http://insidepulse.com/wp-content/uploads/2017/09/Powerpuff-Girls-power-of-four-banner-e1505965402835.png" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Add and Search Word - Data structure design</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Add%20and%20Search%20Word%20-%20Data%20structure%20design"><img src="https://cdn-images-1.medium.com/max/1600/1*e3549k5A9oCLn-vZTxsFEA.gif" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
