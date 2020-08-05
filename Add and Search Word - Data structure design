@@ -1,0 +1,44 @@
+class WordDictionary {
+public:
+    /** Initialize your data structure here. */
+    bool endOfWord;
+    WordDictionary* children[26];
+    WordDictionary() {
+        this->endOfWord = false;
+        for(int i = 0; i<26; i++)
+            this->children[i] = NULL;
+    }
+    
+    /** Adds a word into the data structure. */
+    void addWord(string str) {
+        WordDictionary* root = this;
+        for(char ch:str) {
+            if(root->children[ch-'a'] == NULL) {
+                root->children[ch-'a'] = new WordDictionary();
+            }
+            root = root->children[ch-'a'];
+        }
+        root->endOfWord = true;
+    }
+    /** Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter. */
+    bool search(string word) {
+        WordDictionary* root = this;
+        for(int i = 0; i<word.length(); i++) {
+            char ch = word[i];
+            if(ch == '.') {
+                for(auto node:root->children) {
+                    if(node && node->search(word.substr(i+1)))
+                        return true;
+                }
+                return false;
+            }
+            if(root->children[ch-'a'] == NULL)
+                return false;
+            root = root->children[ch-'a'];
+        }
+
+        if(root && root->endOfWord == true)
+            return true;
+        return false;
+    }
+};
