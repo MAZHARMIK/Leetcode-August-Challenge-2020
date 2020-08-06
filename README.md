@@ -33,7 +33,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>Add and Search Word - Data structure design</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Find%20All%20Duplicates%20in%20an%20Array%20(C%2B%2B:%20O(n))"><img src="" width="500" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Find%20All%20Duplicates%20in%20an%20Array%20(C%2B%2B:%20O(n))"><img src="https://www.intego.com/mac-security-blog/wp-content/uploads/2016/05/Find-Duplicates.jpg" width="500" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
