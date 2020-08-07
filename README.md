@@ -35,5 +35,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Find All Duplicates in an Array</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Find%20All%20Duplicates%20in%20an%20Array%20(C%2B%2B:%20O(n))"><img src="https://www.intego.com/mac-security-blog/wp-content/uploads/2016/05/Find-Duplicates.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Vertical Order Traversal of a Binary Tree</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree%20(Leetcode-987)"><img src="https://qph.fs.quoracdn.net/main-qimg-40eb0372ce9648bd0993fb5037a614f1" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
