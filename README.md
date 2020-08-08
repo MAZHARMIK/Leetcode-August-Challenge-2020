@@ -41,7 +41,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>Path Sum III</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Path%20Sum%20III%20(O(N2))"><img src="https://www.geeksforgeeks.org/wp-content/uploads/tree.png" width="500" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20III%20(O(N))"><img src="https://www.geeksforgeeks.org/wp-content/uploads/tree.png" width="500" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
