@@ -39,5 +39,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Vertical Order Traversal of a Binary Tree</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Vertical%20Order%20Traversal%20of%20a%20Binary%20Tree%20(Leetcode-987)"><img src="https://qph.fs.quoracdn.net/main-qimg-40eb0372ce9648bd0993fb5037a614f1" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Path Sum III</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Path%20Sum%20III%20(O(N2))"><img src="https://www.geeksforgeeks.org/wp-content/uploads/tree.png" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
