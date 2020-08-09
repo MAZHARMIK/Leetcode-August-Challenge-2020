@@ -1,3 +1,7 @@
+/*
+    Company Tags : Accolite, Amazon, Microsoft, Samsung, MakeMyTrip
+*/
+
 class Solution {
 public:
     struct Node{
