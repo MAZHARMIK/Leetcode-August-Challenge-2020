@@ -1,0 +1,58 @@
+class Solution {
+public:
+    struct Node{
+        int x, y;
+        int time;
+    };
+    int orangesRotting(vector<vector<int>>& grid) {
+        queue<Node*> que;
+        for(int i = 0; i<grid.size(); i++) {
+            for(int j = 0; j<grid[i].size(); j++) {
+                if(grid[i][j] == 2) {
+                    Node* temp = new Node();
+                    temp->x    = i;
+                    temp->y    = j;
+                    temp->time = 0;
+                    que.push(temp);
+                }
+            }
+        }
+        
+        int count = 0;
+        vector<pair<int, int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
+        auto isSafe = [&](int x, int y) {
+            return x>=0 && x<grid.size() && y>=0 && y<grid[x].size();
+        };
+        while(!que.empty()) {
+            Node* curr = que.front();
+            que.pop();
+            int i = curr->x;
+            int j = curr->y;
+            int t = curr->time;
+            count = t;
+            for(pair<int, int> dir:directions) {
+                int new_i = i + dir.first;
+                int new_j = j + dir.second;
+                if(isSafe(new_i, new_j) && grid[new_i][new_j] == 1) {
+                    grid[new_i][new_j] = 2;
+                    Node* temp = new Node();
+                    temp->x    = new_i;
+                    temp->y    = new_j;
+                    temp->time = t+1;
+                    que.push(temp);
+                }
+            }
+            
+        }
+        
+        for(int i = 0; i<grid.size(); i++) {
+            for(int j = 0; j<grid[i].size(); j++) {
+                if(grid[i][j] == 1) {
+                    return -1;
+                }
+            }
+        }
+        
+        return count;
+    }
+};
