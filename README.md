@@ -43,5 +43,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Path Sum III</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Tree/Path%20Sum%20III%20(O(N))"><img src="https://www.geeksforgeeks.org/wp-content/uploads/tree.png" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Rotting Oranges</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Rotting%20Oranges%20(C%2B%2B)"><img src="https://thumbs.dreamstime.com/z/orange-rotten-ripe-oranges-several-mature-healthy-contamination-concept-51301037.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
