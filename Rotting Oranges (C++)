@@ -1,62 +1,46 @@
-/*
-    Company Tags : Accolite, Amazon, Microsoft, Samsung, MakeMyTrip
-*/
-
 class Solution {
 public:
-    struct Node{
-        int x, y;
-        int time;
-    };
     int orangesRotting(vector<vector<int>>& grid) {
-        queue<Node*> que;
+        queue<pair<int, int>> que;
+        int freshCount = 0;
         for(int i = 0; i<grid.size(); i++) {
             for(int j = 0; j<grid[i].size(); j++) {
                 if(grid[i][j] == 2) {
-                    Node* temp = new Node();
-                    temp->x    = i;
-                    temp->y    = j;
-                    temp->time = 0;
-                    que.push(temp);
+                    que.push({i, j});
+                }
+                else if(grid[i][j] == 1) {
+                    freshCount++;
                 }
             }
         }
         
-        int count = 0;
+        int time = 0;
         vector<pair<int, int>> directions{{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
         auto isSafe = [&](int x, int y) {
             return x>=0 && x<grid.size() && y>=0 && y<grid[x].size();
         };
         while(!que.empty()) {
-            Node* curr = que.front();
-            que.pop();
-            int i = curr->x;
-            int j = curr->y;
-            int t = curr->time;
-            count = t;
-            for(pair<int, int> dir:directions) {
-                int new_i = i + dir.first;
-                int new_j = j + dir.second;
-                if(isSafe(new_i, new_j) && grid[new_i][new_j] == 1) {
-                    grid[new_i][new_j] = 2;
-                    Node* temp = new Node();
-                    temp->x    = new_i;
-                    temp->y    = new_j;
-                    temp->time = t+1;
-                    que.push(temp);
+            int n = que.size(); //because we want to cover all neighbours of a node at once which are affected in
+            //a particular time frame
+            while(n--) {
+                pair<int, int> curr = que.front();
+                que.pop();
+                int i = curr.first;
+                int j = curr.second;
+                for(pair<int, int> dir:directions) {
+                    int new_i = i + dir.first;
+                    int new_j = j + dir.second;
+                    if(isSafe(new_i, new_j) && grid[new_i][new_j] == 1) {
+                        grid[new_i][new_j] = 2;
+                        que.push({new_i, new_j});
+                        freshCount--;
+                    }
                 }
             }
-            
+            if(!que.empty())
+                time++;
         }
         
-        for(int i = 0; i<grid.size(); i++) {
-            for(int j = 0; j<grid[i].size(); j++) {
-                if(grid[i][j] == 1) {
-                    return -1;
-                }
-            }
-        }
-        
-        return count;
+        return (freshCount==0)?time:-1;
     }
 };
