@@ -49,7 +49,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>Excel Sheet Column Number</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Excel%20Sheet%20Column%20Number%20(C%2B%2B)"><img src="https://thumbs.dreamstime.com/z/orange-rotten-ripe-oranges-several-mature-healthy-contamination-concept-51301037.jpg" width="500" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Excel%20Sheet%20Column%20Number%20(C%2B%2B)"><img src="https://www.vishalon.net/wp-content/uploads/2016/05/excel-column-letter-number.png" width="500" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
