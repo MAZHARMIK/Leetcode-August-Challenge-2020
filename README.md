@@ -51,5 +51,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Excel Sheet Column Number</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Excel%20Sheet%20Column%20Number%20(C%2B%2B)"><img src="https://www.vishalon.net/wp-content/uploads/2016/05/excel-column-letter-number.png" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>H-Index</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/H-Index%20(C%2B%2B)"><img src="" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
