@@ -53,7 +53,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>H-Index</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/H-Index%20(C%2B%2B)"><img src="https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/hindex/hlogo.png" width="500" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/H-Index%20(C%2B%2B)"><img src="https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/hindex/hlogo.png" width="400" height="200"></a></td>
 			</tr>
 		</tbody>
 </table>
