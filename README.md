@@ -55,5 +55,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>H-Index</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/H-Index%20(C%2B%2B)"><img src="https://sci2s.ugr.es/sites/default/files/files/TematicWebSites/hindex/hlogo.png" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Pascal's Triangle II</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Pascal's%20Triangle%20II%20(C%2B%2B)"><img src="https://qph.fs.quoracdn.net/main-qimg-21afe27ede3c662e18b11937a5d8c3c5" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
