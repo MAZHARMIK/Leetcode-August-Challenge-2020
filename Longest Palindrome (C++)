@@ -1,0 +1,29 @@
+class Solution {
+public:
+    int LP(string s) {
+        map<char, int> mp;
+        for(char ch:s)
+            mp[ch]++;
+        
+        int l = 0;
+        bool oneIncluded = false;
+        for(auto it:mp) {
+            if(it.second%2 == 0)
+                l += it.second;
+            else {
+                l += it.second-1;
+                if(!oneIncluded) {
+                    l++;
+                    oneIncluded = true;
+                }
+            }
+        }
+        return l;
+    }
+    int longestPalindrome(string s) {
+        int m = s.length();
+        if(m == 0 || m == 1)
+            return m;
+        return LP(s);
+    }
+};
