@@ -1,0 +1,33 @@
+class CombinationIterator {
+public:
+    string characters;
+    int combinationLength;
+    queue<string> subsets;
+    CombinationIterator(string characters, int combinationLength) {
+        this->characters         = characters;
+        this->combinationLength  = combinationLength;
+        getSubsets(characters, "", 0);
+    }
+    void getSubsets(string characters, string str, int index) {
+        if(str.length() == combinationLength) {
+            subsets.push(str);
+            return;
+        }
+
+        for(int i = index; i<characters.length(); i++) {
+            str.push_back(characters[i]);
+            getSubsets(characters, str, i+1);
+            str.pop_back();
+        }
+    }
+
+    string next() {
+        string nextP = subsets.front();
+        subsets.pop();
+        return nextP;
+    }
+
+    bool hasNext() {
+        return !subsets.empty();
+    }
+};
