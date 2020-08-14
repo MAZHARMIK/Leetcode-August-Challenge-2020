@@ -59,5 +59,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Pascal's Triangle II</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Pascal's%20Triangle%20II%20(C%2B%2B)"><img src="https://qph.fs.quoracdn.net/main-qimg-21afe27ede3c662e18b11937a5d8c3c5" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Iterator for Combination</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Iterator%20for%20Combination%20(C%2B%2B)"><img src="http://codethinked.wpengine.netdna-cdn.com/wp-content/uploads/WindowsLiveWriter/New.net3.5HashSetclass_12628/Subset.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
