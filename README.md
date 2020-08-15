@@ -67,5 +67,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Longest Palindrome</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Longest%20Palindrome%20(C%2B%2B)"><img src="https://c.tadst.com/gfx/750x500/palindrome-bob.png?2" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Non-overlapping Intervals</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Non-overlapping%20Intervals%20(C%2B%2B)"><img src="https://i.stack.imgur.com/1Qajl.png" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
