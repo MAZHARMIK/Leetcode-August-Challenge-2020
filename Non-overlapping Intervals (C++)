@@ -1,0 +1,28 @@
+class Solution {
+public:
+    static bool myFunction(vector<int>& a, vector<int>& b) {
+        return a[1] < b[1];
+    }
+    int eraseOverlapIntervals(vector<vector<int>>& intervals) {
+        int n = intervals.size();
+        if(n <=1 )
+            return 0;
+        //sort by end-time
+        sort(intervals.begin(), intervals.end(), myFunction);
+        
+        int previousEndPoint = intervals[0][1];
+        int count = 0;
+        for(int i = 1; i<n; i++) {
+            int currentStartPoint = intervals[i][0];
+            int currentEndPoint   = intervals[i][1];
+            //if there is an overlap, increase the count
+            if(currentStartPoint < previousEndPoint) {
+                count++;
+            } else {
+                  //if no overlap, then update last endingPoint
+                 previousEndPoint = currentEndPoint;
+            }
+        }
+        return count;
+    }
+};
