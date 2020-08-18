@@ -79,5 +79,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Distribute Candies to People</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Distribute%20Candies%20to%20People%20(C%2B%2B)"><img src="https://media.istockphoto.com/photos/colorful-candies-corner-on-white-background-picture-id670127658?k=6&m=670127658&s=612x612&w=0&h=iqM_8ddcf4CF7xgyK4HVqZGApQkOMx0naQr4zccblrY=" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Numbers With Same Consecutive Differences</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Numbers%20With%20Same%20Consecutive%20Differences%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/uaAiuT53yqI/maxresdefault.jpg" width="400" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
