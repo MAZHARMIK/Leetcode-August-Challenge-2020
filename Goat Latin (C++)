@@ -8,38 +8,22 @@ public:
                 ch == 'u' || ch == 'U');
     }
     string toGoatLatin(string S) {
-        string temp = "";
-        vector<string> words;
-        for(char ch:S) {
-            if(ch == ' ') {
-                words.push_back(temp);
-                temp = "";
+        stringstream check(S); 
+      
+        string token; 
+        string result = "";
+        string add_a = "a";
+        while(std::getline(check, token, ' ')) {
+            if(isVowel(token[0])) {
+                token += "ma" + add_a + " ";
             } else {
-                temp += ch;
+                token = token.substr(1) + token[0] + "ma" + add_a + " ";
             }
+            result += token;
+            
+            add_a += "a";
         }
-        words.push_back(temp);
-
-        int len = 0;
-        string a_string = "a";
-        for(int i = 0; i<words.size(); i++) {
-            len = words[i].length();
-            if(isVowel(words[i][0])) {
-                words[i] += "ma";
-                words[i] += a_string;
-            } else {
-                words[i].push_back(words[i][0]);
-                words[i].erase(words[i].begin());
-                words[i] += "ma";
-                words[i] += a_string;
-            }
-            a_string += "a";
-        }
-        S = "";
-        for(string word:words) {
-            S += word + " ";
-        }
-        S.erase(S.end()-1);
-        return S;
+        result.pop_back();
+        return result;
     }
 };
