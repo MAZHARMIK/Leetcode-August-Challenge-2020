@@ -83,5 +83,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Numbers With Same Consecutive Differences</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Numbers%20With%20Same%20Consecutive%20Differences%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/uaAiuT53yqI/maxresdefault.jpg" width="400" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Goat Latin</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Goat%20Latin%20(C%2B%2B)"><img src="https://media1.fdncms.com/riverfronttimes/imager/u/original/2586439/goattime.jpg" width="300" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
