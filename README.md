@@ -85,7 +85,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>Goat Latin</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Goat%20Latin%20(C%2B%2B)"><img src="https://media1.fdncms.com/riverfronttimes/imager/u/original/2586439/goattime.jpg" width="300" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Goat%20Latin%20(C%2B%2B)"><img src="https://cdn3.vectorstock.com/i/1000x1000/69/92/cartoon-funny-goat-isolated-on-white-background-vector-21036992.jpg" width="300" height="200"></a></td>
 			</tr>
 			<tr>
 			  <td>Reorder List</td>
