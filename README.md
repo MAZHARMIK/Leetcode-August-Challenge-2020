@@ -91,5 +91,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Reorder List</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Reorder%20List%20:%20O(1)%20space"><img src="https://dbader.org/blog/figures/python-linked-list-visualization.jpeg" width="300" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Sort Array By Parity</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Sort%20Array%20By%20Parity%20(C++)"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--dxgbddxD--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/4002f9bb3a93/Image%25202018-12-16%2520at%25205.18.11%2520PM.png" width="300" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
