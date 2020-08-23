@@ -95,5 +95,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Sort Array By Parity</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Sort%20Array%20By%20Parity%20(C++)"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--dxgbddxD--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/https://cl.ly/4002f9bb3a93/Image%25202018-12-16%2520at%25205.18.11%2520PM.png" width="300" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Random Point in Non-overlapping Rectangles</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Random%20Point%20in%20Non-overlapping%20Rectangles%20(C%2B%2B)"><img src="https://i.stack.imgur.com/gLsbi.jpg" width="300" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
