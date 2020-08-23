@@ -99,5 +99,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Random Point in Non-overlapping Rectangles</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Random%20Point%20in%20Non-overlapping%20Rectangles%20(C%2B%2B)"><img src="https://i.stack.imgur.com/gLsbi.jpg" width="300" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Stream of Characters</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Stream%20of%20Characters%20(C%2B%2B)"><img src="https://www.cdn.geeksforgeeks.org/wp-content/uploads/Trie.png" width="200" height="300"></a></td>
+			</tr>
 		</tbody>
 </table>
