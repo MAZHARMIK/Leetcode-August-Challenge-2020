@@ -1,0 +1,44 @@
+class Solution {
+public:
+    vector<int> pointSum;
+    vector<vector<int>> rectPoints;
+    int totalPoints = 0;
+    Solution(vector<vector<int>>& rects) {
+        rectPoints = rects;
+        for(vector<int> point:rects) {
+            int x1 = point[0];
+            int y1 = point[1];
+            
+            int x2 = point[2];
+            int y2 = point[3];
+            
+            int height = y2-y1;
+            int width  = x2-x1;
+            totalPoints += ((height+1)*(width+1));
+            pointSum.push_back(totalPoints);
+        }
+    }
+    
+    vector<int> pick() {
+        int point = rand()%totalPoints;
+        int l = 0, r = pointSum.size()-1;
+        int mid;
+        while(l < r) {
+            int mid = l+(r-l)/2;
+            if(pointSum[mid] <= point)
+                l = mid+1;
+            else
+                r = mid;
+        }
+        vector<int> chosenRect = rectPoints[l];
+        int chosen_x1 = chosenRect[0];
+        int chosen_y1 = chosenRect[1];
+        int chosen_x2 = chosenRect[2];
+        int chosen_y2 = chosenRect[3];
+        
+        int random_x  = chosen_x1 + rand()%(chosen_x2-chosen_x1+1);
+        int random_y  = chosen_y1 + rand()%(chosen_y2-chosen_y1+1);
+        
+        return {random_x, random_y};
+    }
+};
