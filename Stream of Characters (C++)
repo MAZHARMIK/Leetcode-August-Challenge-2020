@@ -1,0 +1,55 @@
+class StreamChecker {
+public:
+    string stream = "";
+    int n = 0;
+public:
+    struct trieNode{
+        char ch;
+        bool endOfWord;
+        trieNode* children[26];
+    };
+    trieNode* getNode(char ch) {
+        trieNode* temp = new trieNode();
+        temp->ch = ch;
+        temp->endOfWord = false;
+        for(int i = 0; i<26; i++) {
+            temp->children[i] = NULL;
+        }
+        return temp;
+    }
+    void insert(string word) {
+        trieNode* pCrawl = root;
+        int i = word.length()-1;
+        for(;i>=0; i--) {
+            char ch = word[i];
+            if(pCrawl->children[ch-'a'] == NULL) {
+                pCrawl->children[ch-'a'] = getNode(ch);
+            }
+            pCrawl = pCrawl->children[ch-'a'];
+        }
+        pCrawl->endOfWord = true;
+    }
+    trieNode* root;
+    StreamChecker(vector<string>& words) {
+        root = getNode('.');
+        for(string word:words) {
+            insert(word);
+        }
+    }
+
+    bool query(char letter) {
+        n++;
+        stream += letter;
+        trieNode* pCrawl = root;
+        
+        for(int i = n-1; i>=0; i--) {
+            pCrawl = pCrawl->children[stream[i]-'a'];
+            if(pCrawl == NULL)
+                return false;
+            else if(pCrawl->endOfWord) {
+                return true;
+            }
+        }
+        return false;
+    }
+};
