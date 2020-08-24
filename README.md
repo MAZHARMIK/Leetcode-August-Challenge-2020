@@ -103,5 +103,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Stream of Characters</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Stream%20of%20Characters%20(C%2B%2B)"><img src="https://www.cdn.geeksforgeeks.org/wp-content/uploads/Trie.png" width="200" height="300"></a></td>
 			</tr>
+			<tr>
+			  <td>Sum of Left Leaves</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Sum%20of%20Left%20Leaves%20(C%2B%2B)"><img src="https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/pix/binaryTree.bmp" width="200" height="300"></a></td>
+			</tr>
 		</tbody>
 </table>
