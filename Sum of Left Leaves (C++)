@@ -1,0 +1,24 @@
+class Solution {
+public:
+    int sum(TreeNode* root, TreeNode* parent) {
+        if(!root)
+            return 0;
+        
+        int left  = sum(root->left, root);
+        int right = sum(root->right, root);
+        
+        int sum = 0;
+        if(root->left == NULL && root->right == NULL) {
+            if(parent && parent->left == root)
+                sum += root->val;
+        }
+        
+        return left+right+sum;
+    }
+    int sumOfLeftLeaves(TreeNode* root) {
+        if(!root)
+            return 0;
+        TreeNode* parent = NULL;
+        return sum(root, parent);
+    }
+};
