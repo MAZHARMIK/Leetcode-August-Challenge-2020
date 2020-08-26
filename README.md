@@ -111,5 +111,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Minimum Cost For Tickets</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Minimum%20Cost%20For%20Tickets%20(Top%20Down)"><img src="https://media.istockphoto.com/vectors/road-trip-through-the-mountains-vector-id505059206?k=6&m=505059206&s=612x612&w=0&h=0cr0sMLsmHzqDoJTlt2ev50JJIOh4StNp35b3OXhnOs=" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Fizz Buzz</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Fizz%20Buzz%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/WtJsf2mevvQ/maxresdefault.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
