@@ -115,5 +115,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Fizz Buzz</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Fizz%20Buzz%20(C%2B%2B)"><img src="https://i.ytimg.com/vi/WtJsf2mevvQ/maxresdefault.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Fizz Buzz</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval"><img src="https://i.ytimg.com/vi/7vIb8MO3H8k/hqdefault.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
