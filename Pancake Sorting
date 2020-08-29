@@ -1,0 +1,18 @@
+class Solution {
+public:
+    vector<int> pancakeSort(vector<int>& A) {
+        int n = A.size();
+        vector<int> result;
+        while(n!=1) {
+            int index = find(A.begin(), A.end(), n) - A.begin(); //find index of largest element
+            reverse(A.begin(), A.begin()+index+1);               //move it to start by reversing
+            result.push_back(index+1);                           //add index+1  (size of flip)
+            
+            reverse(A.begin(), A.begin()+n);                     //reverse till n to move largest element to last
+            result.push_back(n);                                 //add n (size of flip)
+            
+            n--;                                                 //last element is in correct (sorted) position
+        }
+        return result;
+    }
+};
