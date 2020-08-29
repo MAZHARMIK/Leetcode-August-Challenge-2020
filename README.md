@@ -119,5 +119,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Find Right Interval</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Arrays/Intervals_Based_Qn/Find%20Right%20Interval%20(Good%20and%20Clean%20Approach)"><img src="https://i.ytimg.com/vi/7vIb8MO3H8k/hqdefault.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Implement Rand10() Using Rand7() (3 Methods)</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Implement%20Rand10()%20Using%20Rand7()%20(3%20Methods)"><img src="http://cliparts.co/cliparts/di4/oq5/di4oq5p5T.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
