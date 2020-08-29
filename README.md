@@ -123,5 +123,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Implement Rand10() Using Rand7() (3 Methods)</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Implement%20Rand10()%20Using%20Rand7()%20(3%20Methods)"><img src="http://cliparts.co/cliparts/di4/oq5/di4oq5p5T.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Pancake Sorting</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Pancake%20Sorting"><img src="https://animaloilmaker.com/images/pancakes-clipart-4.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
