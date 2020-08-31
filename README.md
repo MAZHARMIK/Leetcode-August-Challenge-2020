@@ -131,5 +131,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Largest Component Size by Common Factor</td>
         <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Largest%20Component%20Size%20by%20Common%20Factor"><img src="https://i.ytimg.com/vi/0jNmHPfA_yE/maxresdefault.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Delete Node in a BST</td>
+        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Delete%20Node%20in%20a%20BST%20(C%2B%2B)"><img src="https://www.gatevidyalay.com/wp-content/uploads/2018/07/Binary-Search-Tree-Example.png" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
