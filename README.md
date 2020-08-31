@@ -127,5 +127,9 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			  <td>Pancake Sorting</td>
         <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Pancake%20Sorting"><img src="https://animaloilmaker.com/images/pancakes-clipart-4.jpg" width="500" height="200"></a></td>
 			</tr>
+			<tr>
+			  <td>Largest Component Size by Common Factor</td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/Graph/Largest%20Component%20Size%20by%20Common%20Factor"><img src="https://i.ytimg.com/vi/0jNmHPfA_yE/maxresdefault.jpg" width="500" height="200"></a></td>
+			</tr>
 		</tbody>
 </table>
