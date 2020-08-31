@@ -1,0 +1,38 @@
+class Solution {
+public:
+    TreeNode* findMinInRight(TreeNode* root) {
+        while(root->left) {
+            root = root->left;
+        }
+        return root;
+    }
+    TreeNode* deleteNode(TreeNode* root, int key) {
+        if(!root)
+            return root;
+        
+        if(root->val < key) {
+            root->right = deleteNode(root->right, key);
+        } else if(root->val > key) {
+            root->left = deleteNode(root->left, key);
+        } else {
+            if(root->left == NULL && root->right == NULL) {
+                delete(root);
+                root = NULL;
+            } else if(root->left == NULL) {
+                TreeNode* temp = root;
+                root = root->right;
+                delete(temp);
+            } else if(root->right == NULL) {
+                TreeNode* temp = root;
+                root = root->left;
+                delete(temp);
+            } else {
+                TreeNode* temp = findMinInRight(root->right);
+                root->val = temp->val;
+                root->right = deleteNode(root->right, temp->val);
+            }
+        }
+        
+        return root;
+    }
+};
