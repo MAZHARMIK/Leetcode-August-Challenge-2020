@@ -73,7 +73,7 @@ Link to the contest : <a href="https://leetcode.com/explore/featured/card/august
 			</tr>
 			<tr>
 			  <td>Best Time to Buy and Sell Stock III</td>
-        <td><a href="https://github.com/MAZHARMIK/Leetcode-August-Challenge-2020/blob/master/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III"><img src="https://i.ytimg.com/vi/fYfmersisgM/maxresdefault.jpg" width="400" height="200"></a></td>
+        <td><a href="https://github.com/MAZHARMIK/Interview_DS_Algo/blob/master/DP/Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III"><img src="https://i.ytimg.com/vi/fYfmersisgM/maxresdefault.jpg" width="400" height="200"></a></td>
 			</tr>
 			<tr>
 			  <td>Distribute Candies to People</td>
